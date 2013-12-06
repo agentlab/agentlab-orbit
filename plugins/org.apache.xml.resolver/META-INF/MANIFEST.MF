@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Localization: plugin
+Main-Class: org.apache.xml.resolver.apps.resolver
+Bundle-RequiredExecutionEnvironment: J2SE-1.2
+Bundle-Name: %Bundle-Name.0
+Bundle-SymbolicName: org.apache.xml.resolver
+Require-Bundle: system.bundle
+Bundle-Version: 1.2.0.qualifier
+Export-Package: org.apache.xml.resolver,
+ org.apache.xml.resolver.apps,
+ org.apache.xml.resolver.helpers,
+ org.apache.xml.resolver.readers,
+ org.apache.xml.resolver.tests,
+ org.apache.xml.resolver.tools
+Bundle-ManifestVersion: 2
