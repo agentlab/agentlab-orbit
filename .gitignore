@@ -1,6 +1,31 @@
+# Dirs With Binaries #
+bin
+lib
+target
+temp
+xtend-gen
+src-gen
+classes
+
+# Binary Files #
 *.class
+*.dll
+*.lib
+*.exe
+*.obj
 
 # Package Files #
 *.jar
 *.war
 *.ear
+*.zip
+*.rar
+*.7z
+*.tar
+
+# Temporary Files #
+*.bak
+
+# Data Files #
+*.dat
+*.idn
