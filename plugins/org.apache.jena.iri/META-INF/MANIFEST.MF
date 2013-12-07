@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Jena IRI
+Bundle-SymbolicName: org.apache.jena.iri
+Bundle-Version: 0.9.5.qualifier
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.apache.jena.iri,
+ org.apache.jena.iri.impl
