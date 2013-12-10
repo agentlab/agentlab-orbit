@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jade Agent Development Envorinment
+Bundle-SymbolicName: com.tilab.jade.testsuite
+Bundle-Version: 1.11.0.qualifier
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: com.tilab.jade;bundle-version="4.3.1"
+Export-Package: jade.test.common,
+ jade.test.common.agentConfigurationOntology,
+ jade.test.common.behaviours,
+ jade.test.common.remote,
+ jade.test.common.testerAgentControlOntology,
+ jade.test.common.testSuite,
+ jade.test.common.testSuite.gui,
+ jade.test.common.xml,
+ jade.test.interPlatform,
+ jade.test.interPlatform.tests

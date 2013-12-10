@@ -1,0 +1,46 @@
+README file for XMLCodec for JADE, Version $Name$
+
+
+INTRODUCTION
+============
+
+This package contains an XML support for the content language for JADE.
+In particular the class XMLCodec.java implements the Codec interface of JADE
+and allows converting back and forth between arrays of byte in XML format 
+and AbsContentElement (abstract descriptor of the message content). The XMLCodec
+use SAX for decoding content.
+This package represents a possible content language to adopt as a vehicle for
+messages regarding a JADE application-specific ontology.
+
+
+LICENSE
+=======
+See file COPYING
+
+
+SYSTEM REQUIREMENTS
+===================
+
+This XMLCodec requires JADE 2.6 and the Java API for XML Processing (JAXP).
+
+
+INSTALLATION
+============
+
+This XMLCodec is contained into a separate JAR file, named XMLCodec.jar; 
+in order to be used, the XMLCodec.jar file must be added to the CLASSPATH
+environment variable. 
+
+
+USING THE XMLCodec
+==================
+In order to use XMLCodec, you must register the language with the registerLanguage method
+of the ContentManager class:
+
+es:   manager.registerLanguage(new XMLCodec());
+
+Moreover it is recommended to set the language of the message:
+   
+es:   ACLmsg.setLanguage(XMLCodec.NAME); 
+    
+

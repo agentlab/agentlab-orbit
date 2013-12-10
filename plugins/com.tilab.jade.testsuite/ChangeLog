@@ -1,0 +1,4 @@
+FIRST PUBLIC RELEASE (23 March 2004)
+==========================================================================
+This test suite framework does not work with JADE 3.1;
+it requires a JADE snapshot later than 22/03/2004.
