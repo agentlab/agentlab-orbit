@@ -1,11 +1,11 @@
 # Dirs With Binaries #
-bin
-lib
-target
+/plugins/*/bin/
+/plugins/*/lib/
+/plugins/*/target/
+/plugins/*/xtend-gen/
+/plugins/*/src-gen/
+/plugins/*/classes/
 temp
-xtend-gen
-src-gen
-classes
 
 # Binary Files #
 *.class

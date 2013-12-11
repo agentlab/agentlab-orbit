@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.apache.jena_2.11.0.qualifier.jar" id="org.apache.jena" version="2.11.0.qualifier">
+      <category name="Apache"/>
+   </feature>
+   <feature url="features/org.apache.xml_1.0.0.qualifier.jar" id="org.apache.xml" version="1.0.0.qualifier">
+      <category name="Apache"/>
+   </feature>
+   <feature url="features/org.apache.jena.feature_2.11.0.qualifier.jar" id="org.apache.jena.feature" version="2.11.0.qualifier">
+      <category name="Apache Libs"/>
+   </feature>
+   <feature url="features/org.apache.xml.feature_1.0.0.qualifier.jar" id="org.apache.xml.feature" version="1.0.0.qualifier">
+      <category name="Apache Libs"/>
+   </feature>
+   <feature url="features/com.tilab.jade.feature_4.3.1.qualifier.jar" id="com.tilab.jade.feature" version="4.3.1.qualifier">
+      <category name="JADE"/>
+   </feature>
+   <feature url="features/org.apache.jena.feature.source_2.11.0.qualifier.jar" id="org.apache.jena.feature.source" version="2.11.0.qualifier">
+      <category name="Apache Libs"/>
+   </feature>
+   <feature url="features/org.apache.xml.feature.source_1.0.0.qualifier.jar" id="org.apache.xml.feature.source" version="1.0.0.qualifier">
+      <category name="Apache Libs"/>
+   </feature>
+   <feature url="features/com.tilab.jade.feature.source_4.3.1.qualifier.jar" id="com.tilab.jade.feature.source" version="4.3.1.qualifier">
+      <category name="JADE"/>
+   </feature>
+   <category-def name="Apache Libs" label="Apache Libs"/>
+   <category-def name="JADE" label="JADE"/>
+</site>

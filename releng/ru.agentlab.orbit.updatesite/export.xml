@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="feature_export" name="build">
+	<target name="feature_export">
+		<pde.exportFeatures destination="../temp" exportSource="true" exportType="zip" features="org.apache.jena,org.apache.xml" filename="temp.zip" qualifier="201312072012" useJARFormat="true"/>
+	</target>
+</project>
